@@ -1,5 +1,6 @@
 # The Project Maxwell
 Elixir New Orderbook [Maxwell]
+![maxwell](https://github.com/mehmethayirli/cryptology-elixir/assets/158029357/a4f61175-52db-47f2-a690-5ed2dfa4e7a3)
 
 Elixir runs the the orderbook near-equivalent of **Uniswap v2's x*y=k** formula: LPs have a very similar risk/return profile to AMM LPs
 
