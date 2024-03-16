@@ -8,9 +8,8 @@ Elixir New Orderbook [Maxwell]
 1. Create a new Elixir project using the `mix new orderbook` command.
 2. Add the following package to your `deps` file:
 
-``elixir
-
-{:gen_server, "~> 2.0"}
+``elixir``
+```{:gen_server, "~> 2.0"}```
 
 ## Docs
 
