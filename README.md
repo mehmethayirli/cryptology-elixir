@@ -1,5 +1,18 @@
 # The Project Maxwell
 Elixir New Orderbook [Maxwell]
+
+* You can follow this tutorial to create a simple **orderbook** using **Elixir**.
+
+## Installation
+
+1. Create a new Elixir project using the `mix new orderbook` command.
+2. Add the following package to your `deps` file:
+
+``elixir
+{:gen_server, "~> 2.0"}
+
+## Docs
+
 ![maxwell](https://github.com/mehmethayirli/cryptology-elixir/assets/158029357/a4f61175-52db-47f2-a690-5ed2dfa4e7a3)
 
 Elixir runs the the orderbook near-equivalent of **Uniswap v2's x*y=k** formula: LPs have a very similar risk/return profile to AMM LPs
@@ -59,3 +72,5 @@ In practice, this strategy completed a few key steps to deploy orderbook liquidi
 More information about the performance and practice of this strategy can be found within Stanford's "Optimal High-Frequency Market Making" by Takahiro Fushimi, Christian Gonzalez Rojas, and Molly Herman (2018).
 
 Given that our network is fully transparent, building resilience against outside players is crucial to protect against gamification of the algorithm used to build orderbooks via Elixir. Read Preventing Gamification for more insights into this.
+
+
