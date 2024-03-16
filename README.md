@@ -9,6 +9,7 @@ Elixir New Orderbook [Maxwell]
 2. Add the following package to your `deps` file:
 
 ``elixir
+
 {:gen_server, "~> 2.0"}
 
 ## Docs
